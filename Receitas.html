@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas</title>
+    <link rel="stylesheet" href="styles/receitas.css">
+</head>
+<body>
+    <section>
+        <div class="circulo"></div>
+        <header>
+            <a href="#" ><img src="Img/LaPeti.svg" class="logo"></a>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="#">Receitas</a></li>
+                <li><a href="cadastro.html">Cadastre-se</a></li>
+                <li><a href="Contatos.html">Contatos</a></li></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h3> Acesse nossas receitas!<br>Isso é <span>La Peti</span></h3>
+                <p> Se você gosta do mundo das receitas, no LaPeti 
+                poderá<br> descobrir uma infinidade de receitas deliciosas
+                que irão<br> satisfazer até os paladares mais exigentes.<br>
+                No nosso site poderá encontrar todo o tipo de receitas<br>
+                de cozinha capazes de surpreender os paladares mais requintados.</p>
+                <a href="ReceitasMais.html"> Mais</a>
+            </div>
+            <div class="imgBox">
+                <img src="Img/img1.png" class="pratoRatatouille">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="Img/thumb1.png" onclick="imgSlider('Img/img1.png');changeCircleColor('#FA7041')"></li>
+            <li><img src="Img/thumb2.png" onclick="imgSlider('Img/img2.png');changeCircleColor('#FFCDCB')"></li>
+            <li><img src="Img/thumb3.png" onclick="imgSlider('Img/img3.png');changeCircleColor('#4B3070')"></li>
+        </ul>
+    </section>
+
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.pratoRatatouille').src = anything;
+        }
+        function changeCircleColor(color){
+            const circulo = document.querySelector('.circulo');
+            circulo.style.background = color;
+        }
+    </script>
+</body>
+</html>

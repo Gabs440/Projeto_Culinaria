@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles/ReceitasMais.css">
+</head>
+
+<body>
+
+<header>
+    <img class="logo" src="Img/LaPeti.svg" alt="Logo do Ratatouille">
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="Index.html">Início</a>
+        <a href="#speciality">Especialidades</a>
+        <a href="#gallery">Galeria</a>
+    </nav>
+
+</header>
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Veja as principais receitas!</h3>
+        <p>Confira a seguir nossas especialidades, além da nossa galeria de receitas! Uma mais deliciosa que a outra!</p>
+        <a href="Receitas.html" class="btn">Voltar</a>
+    </div>
+
+    <div class="image">
+        <img src="images/home-img.png" alt="">
+    </div>
+
+</section>
+
+<section class="speciality" id="speciality">
+
+    <h1 class="heading"> Nossas <span>especialidades</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img class="image" src="images/s-img-1.jpg" alt="">
+            <div class="content">
+                <img Especialidades src="images/s-1.png" alt="">
+                <h3>Pratos Diversos</h3>
+                <p>A gastronomia é tão importante para o cenário cultural de qualquer nação que é definida como uma atração turística por si só. Com isso, separamos os principais pratos de cada local.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="images/s-img-2.jpg" alt="">
+            <div class="content">
+                <img src="images/s-2.png" alt="">
+                <h3>Bebidas</h3>
+                <p>Quer conhecer um pouco mais sobre nossas bebidas tão especiais? Então, continue conosco e confira os drinks mais conhecidos e apreciados no Brasil e no mundo!</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="images/s-img-3.jpg" alt="">
+            <div class="content">
+                <img src="images/s-3.png" alt="">
+                <h3>Sobremesas</h3>
+                <p>E cá para nós, quem aqui não curte um doce ou sobremesa? E quando é algo diferente, só o gostinho de provar pela primeira vez já é um momento especial. Portanto, confira no nosso site receitas que vão te dar água na boca.</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading"><span> Pratos  </span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/g-1.jpg" alt="">
+            <div class="content">
+                <h3>Ratatouille</h3>
+                <p>Muito parecido com um refogado de legumes, essa receita é perfeita para qualquer refeição.</p>
+                <a onclick="showModalA()" class="btn">Veja Mais</a>
+            </div>
+        </div>
+        <div class="modal" id="modalA">
+            <div class="modal-content">
+                <span class="botao" onclick="hideModalA()">&times;</span>
+                    <h1 class="heading"><span>Ratatouille</span></h1>
+                    <div class="receita">
+                        <div class="ingredientes">
+                            <ul>
+                                <h2>Ingredientes</h2>
+                                <li>2 abobrinhas</li>
+                                <li>2 berinjelas</li>
+                                <li>2 cebolas</li>
+                                <li>3 tomates</li>
+                                <li>1 pimentão verde</li>
+                                <li>1 pimentão amarelo</li>
+                            </ul>
+                        </div>
+                        <div class="ingredientes1">
+                            <ul>
+                                <li>1 pimentão vermelho</li>
+                                <li>azeite a gosto</li>
+                                <li>alecrim a gosto</li>
+                                <li>manjericão a gosto</li>
+                                <li>alho a gosto</li>
+                                <li>sal a gosto</li>
+                                <li>louro a gosto</li>
+                                <li>molho de tomate para cobrir o fundo da forma</li>
+                            </ul>
+                        </div>
+                        <div class="preparo">
+                            <ol>
+                                <h2>Modo de Preparo</h2>
+                                <justify>
+                                <li>Corte os vegetais em rodelas finas sem as sementes.</li>
+                                <li>Cubra o fundo de uma forma com o molho de tomate.</li>
+                                <li>Monte tudo intercalando com os vegetais.</li>
+                                <li>Amasse o alho e espalhe por cima acrescentando o sal e o alecrim a gosto.</li>
+                                <li>Regue com um pouco de azeite e cubra com papel-manteiga ou alumínio.</li>
+                                <li>Leve ao forno por 40 minutos a uma temperatura de 180° C a 200° C.</li>
+                                </justify>
+                            </ol>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>Sopa de Mandioquinha</h3>
+                <p>É bem fácil de se fazer! Mesmo que você não tenha muita experiência na cozinha, vale a pena experimentar.</p>
+                <a  onclick="showModalB()" class="btn">Veja Mais</a>
+            </div>
+        </div>
+        <div class="modal" id="modalB">
+            <div class="modal-content">
+                <span class="botao" onclick="hideModalB()">&times;</span>
+                <h1 class="heading"><span>Sopa de Mandioquinha</span></h1>
+                <div class="receita">
+                    <div class="ingredientes">
+                        <ul>
+                            <h2>Ingredientes</h2>
+                            <li>1 kg de mandioquinha cozida</li>
+                            <li>500 ml de água quente filtrada</li>
+                            <li>1 colher (sopa) de manteiga</li>
+                            <li>1 cebola picada</li>
+                            <li>4 dentes de alho picado</li>
+                            <li>300 g de bacon em cubos</li>
+                        </ul>
+                    </div>
+                    <div class="ingredientes1">
+                        <ul>
+                            <li>200 g de mussarela ralada</li>
+                            <li>200 g de creme de leite</li>
+                            <li>sal a gosto</li>
+                            <li>cheiro-verde a gosto</li>
+                        </ul>
+                    </div>
+                    <div class="preparo">
+                        <ol>
+                            <h2>Modo de Preparo</h2>
+                            <justify>
+                            <li>No liquidificador, misture a mandioquinha e a água quente filtrada, bata bem.</li>
+                            <li>Em uma panela, acrescente a manteiga e refogue a cebola e o alho picado.</li>
+                            <li>Adicone o bacon em cubos e frite.</li>
+                            <li>Acrescente a mistura do liquidificador.</li>
+                            <li>Adicione a mussarela, o creme de leite, o sal e o cheiro-verde.</li>
+                            <li>Mexa bem e está pronto!</li>
+                            </justify>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="box">
+            <img src="images/g-3.jpg" alt="">
+            <div class="content">
+                <h3>Chilli</h3>
+                <p>Servido com nachos como acompanhamento. Cai bem na hora da refeição principal.</p>
+                <a  onclick="showModalC()" class="btn">Veja Mais</a>
+            </div>
+        </div>
+        <div class="modal" id="modalC">
+            <div class="modal-content">
+                <span class="botao" onclick="hideModalC()">&times;</span>
+                <h1 class="heading"><span>Chilli</span></h1>
+                <div class="receita">
+                    <div class="ingredientes">
+                        <ul>
+                            <h2>Ingredientes</h2>
+                            <li>1/2 Kg de carne moída</li>
+                            <li>1/2 Kg de feijão cozido sem caldo - mistura dos tipos: rajado, rosinha e carioquinha</li>
+                            <li>3 tomates médios cortados em cubos médios</li>
+                            <li>1 pimentão verde pequeno cortado em cubos</li>
+                            <li>1 pimentão vermelho pequeno em cubos</li>
+                            <li>1 cebola média cortada em cubinhos</li>
+                            <li>Cominho a gosto</li>
+                        </ul>
+                    </div>
+                    <div class="ingredientes1">
+                        <ul>
+                            <li>3 dentes de alho amassados</li>
+                            <li>4 colheres de sopa de óleo de soja</li>
+                            <li>1 cubo de tempero pronto sabor carne</li>
+                            <li>1 litro de água fervente</li>
+                            <li>Sal a gosto</li>
+                            <li>Molho de pimenta a gosto</li>
+                            <li>No liquidificador, misture a mandioquinha e a água quente filtrada, bata bem.</li>
+                        </ul>
+                    </div>
+                    <div class="preparo">
+                        <ol>
+                            <h2>Modo de Preparo</h2>
+                            <justify>
+                            <li>Em panela grande doure a cebola, alho e óleo.</li>
+                            <li>Acrescente a carne moída.</li>
+                            <li>Sempre mexendo, refogue por 3 a 4 minutos.</li>
+                            <li>Adicione os temperos: cubo de tempero pronto, cominho e molho de pimenta. Experimente, se ao seu gosto adicione mais sal.</li>
+                            <li>Acrescente os tomates e pimentões e refogue por mais alguns minutos.</li>
+                            <li>Por último, acrescente os feijões e a água fervente.</li>
+                            </justify>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="box">
+            <img src="images/g-4.jpg" alt="">
+            <div class="content">
+                <h3>Lasanha de Carne Moída</h3>
+                <p>A receita de lasanha de carne moída, também conhecida como lasanha à bolonhesa, é um clássico!</p>
+                <a  onclick="showModalD()" class="btn">Veja Mais</a>
+            </div>
+        </div>
+        <div class="modal" id="modalD">
+            <div class="modal-content">
+                <span class="botao" onclick="hideModalD()">&times;</span>
+                <h1 class="heading"><span>Lasanha de Carne Moída</span></h1>
+                <div class="receita">
+                    <div class="ingredientes">
+                        <ul>
+                            <h2>Ingredientes</h2>
+                            <li>500 g de massa de lasanha</li>
+                            <li>500 g de carne moída</li>
+                            <li>2 caixas de creme de leite</li>
+                            <li>3 colheres de manteiga</li>
+                            <li>3 colheres de farinha de trigo</li>
+                            <li>500 g de presunto</li>
+                            <li>500 g de mussarela</li>
+                        </ul>
+                    </div>
+                    <div class="ingredientes1">
+                        <ul>
+                            <li>2 copos de leite</li>
+                            <li>1 cebola ralada</li>
+                            <li>3 colheres de óleo</li>
+                            <li>1 caixa de molho de tomate</li>
+                            <li>3 dentes de alho amassados</li>
+                            <li>1 pacote de queijo ralado</li>
+                            <li>sal a gosto</li>
+                        </ul>
+                    </div>
+                    <div class="preparo">
+                        <ol>
+                            <h2>Modo de Preparo</h2>
+                            <justify>
+                            <li>Lasanha: Cozinhe a massa segundo as orientações do fabricante, despeje em um refratário com água gelada para não grudar e reserve.</li>
+                            <li>Molho à bolonhesa: Refogue o alho, a cebola, a carne moída, o molho de tomate, deixe cozinhar por 3 minutos e reserve.</li>
+                            <li>Molho branco: Derreta a margarina, coloque as 3 colheres de farinha de trigo e mexa.</li>
+                            <li>Despeje o leite aos poucos e continue mexendo.</li>
+                            <li>Por último, coloque o creme de leite, mexa por 1 minuto e desligue o fogo.</li>
+                            </justify>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="box">
+            <img src="images/g-5.jpg" alt="">
+            <div class="content">
+                <h3>Nhoque de Batata</h3>
+                <p>Naturalmente italiano: o nhoque de batata ou gnochee é uma receita deliciosa.</p>
+                <a  onclick="showModalE()" class="btn">Veja Mais</a>
+            </div>
+        </div>
+        <div class="modal" id="modalE">
+            <div class="modal-content">
+                <span class="botao" onclick="hideModalE()">&times;</span>
+                <h1 class="heading"><span>Nhoque de Batata</span></h1>
+                <div class="receita">
+                    <div class="ingredientes">
+                        <ul>
+                            <h2>Ingredientes</h2>
+                            <li>6 batatas médias</li>
+                            <li>1 xícara de farinha de trigo</li>
+                            <li>sal a gosto</li>
+                            <li>Molho:1 lata de molho de tomate</li>
+                            <li>1/2 cebola</li>
+                            <li>1 colher (sopa) de azeite</li>
+                            <li>2 tabletes de caldo de carne</li>
+                            <li>1/2 kg de carne moída</li>
+                            <li>1 pacote de queijo ralado</li>
+                        </ul>
+                    </div>
+                    <div class="preparo">
+                        <ol>
+                            <h2>Modo de Preparo</h2>
+                            <justify>
+                            <li>Cozinhe as batatas, em água, até que estejam macias.</li>
+                            <li>Descasque-as e passe pelo espremedor ainda quentes.</li>
+                            <li>Vá acrescentando a farinha aos poucos e o sal, amasse bem.</li>
+                            <li>Coloque a massa sobre uma mesa enfarinhada e faça rolinhos.</li>
+                            <li>Corte cada rolinho em pedaços de mais ou menos 2 cm.</li>
+                            </justify>
+                        <ol>
+                    </div>
+                    <div class="preparo1">
+                        <ol>
+                            <justify>
+                            <li>Leve ao fogo, em uma panela com bastante água temperada com sal.</li>
+                            <li>Quando a água levantar fervura, vá colocando os nhoques, até eles começarem a subir.</li>
+                            <li>Coloque água fria em uma bacia com um escorredor dentro, retire os nhoques já cozidos e coloque-os no escorredor para dar choque térmico.</li>
+                            <li>Repita o processo até toda massa estar cozida.</li>
+                            <li>Escorra bem e coloque o nhoque em um refratário, reserve.</li>
+                            </justify>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="heading"><span> Bebidas  </span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/g-6.jpg" alt="">
+            <div class="content">
+                <h3>Batida de Frutas</h3>
+                <p>As batidas de frutas são as receitas de drinks mais tradicionais e mais fáceis de se fazer</p>
+                <a  onclick="showModalF()" class="btn">Veja Mais</a>
+            </div>
+        </div>
+        <div class="modal" id="modalF">
+            <div class="modal-content">
+                <span class="botao" onclick="hideModalF()">&times;</span>
+                <h1 class="heading"><span>Batida de Frutas</span></h1>
+                <div class="receita">
+                    <div class="ingredientes">
+                        <ul>
+                            <h2>Ingredientes</h2>
+                            <li>1 fruta de sua preferência (maracujá, morango, abacaxi e uva são as mais usadas)</li>
+                            <li>1 dose de cachaça ou vodka (50mL)</li>
+                            <li>1 colher de sopa de leite condensado</li>
+                            <li>Gelo a gosto</li> 
+                        </ul>
+                    </div>
+                    <div class="preparo">
+                        <ol>
+                            <h2>Modo de Preparo</h2>
+                            <justify>
+                            <li>Bata tudo no liquidificador – ou agite em uma coqueteleira – e sirva bem gelado!</li>
+                            </justify>
+                        <ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="box">
+            <img src="images/g-7.jpg" alt="">
+            <div class="content">
+                <h3>Gin Tônica</h3>
+                <p>O clássico drink feito com Gin é super fácil de preparar (além de saboroso e refrescante!).</p>
+                <a  onclick="showModalG()" class="btn">Veja Mais</a>
+            </div>
+        </div>
+        <div class="modal" id="modalG">
+            <div class="modal-content">
+                <span class="botao" onclick="hideModalG()">&times;</span>
+                <h1 class="heading"><span>Gin Tônica</span></h1>
+                <div class="receita">
+                    <div class="ingredientes">
+                        <ul>
+                            <h2>Ingredientes</h2>
+                            <li>30 mL de gin</li>
+                            <li>60 mL de água tônica</li>
+                            <li>3 framboesas</li>
+                            <li>4 folhas de manjericão</li>
+                            <li>Gelo.</li> 
+                        </ul>
+                    </div>
+                    <div class="preparo">
+                        <ol>
+                            <h2>Modo de Preparo</h2>
+                            <justify>
+                            <li>Em um copo longo, coloque as folhas de manjericão, as framboesas, o gelo e o gin. Adicione a água tônica gentilmente para não perder o gás e sirva!</li>
+                            </justify>
+                        <ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <img src="images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>Gin Mule</h3>
+                <p>O Gin Mule é uma bebida que virou tendência, veja a receita e sirva para os seus convidados!</p>
+                <a  onclick="showModalH()" class="btn">Veja Mais</a>
+            </div>
+        </div>
+        <div class="modal" id="modalH">
+            <div class="modal-content">
+                <span class="botao" onclick="hideModalH()">&times;</span>
+                <h1 class="heading"><span>Gin Mule</span></h1>
+                <div class="receita">
+                    <div class="ingredientes">
+                        <ul>
+                            <h2>Ingredientes</h2>
+                            <li>1 xícara de chá de água</li>
+                            <li>1 xícara de chá de açúcar mascavo</li>
+                            <li>1 canela em pau</li>
+                            <li>1 colher de sopa de gengibre picado</li>
+                            <li>Suco de 1/2 limão</li> 
+                            <li>60mL de gin</li>
+                            <li>Água com gás</li>
+                            <li>Folhas de hortelã e rodelas de limão a gosto</li>
+                        </ul>
+                    </div>
+                    <div class="preparo">
+                        <ol>
+                            <h2>Modo de Preparo</h2>
+                            <justify>
+                            <li>Em uma panela, coloque a água, o açúcar mascavo, a canela em pau e o gengibre. Deixe ferver até reduzir pela metade, coe e deixe esfriar.</li>
+                            <li>Depois, em uma caneca, misture o gin, o suco de limão e 50 ml do xarope que você fez na panela.</li>
+                            <li>Adicione o gelo batido e complete a caneca com a água com gás. Finalize com mais gelo e decore com rodelas de limão e folhas de hortelã.</li>
+                            </justify>
+                        <ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>Negroni</h3>
+                <p>Um drink elegante e com muita tradição, que voltou a figurar como um dos favoritos das grandes cidades brasileiras!</p>
+                <a  onclick="showModalI()" class="btn">Veja Mais</a>
+            </div>
+        </div>
+        <div class="modal" id="modalI">
+            <div class="modal-content">
+                <span class="botao" onclick="hideModalI()">&times;</span>
+                <h1 class="heading"><span>Negroni</span></h1>
+                <div class="receita">
+                    <div class="ingredientes">
+                        <ul>
+                            <h2>Ingredientes</h2>
+                            <li>30 mL de vermute rosso</li>
+                            <li>30 mL de Campari</li>
+                            <li>30 mL de ginau</li>
+                            <li>2 rodelas de laranja</li>
+                            <li>Gelo</li> 
+                        </ul>
+                    </div>
+                    <div class="preparo">
+                        <ol>
+                            <h2>Modo de Preparo</h2>
+                            <justify>
+                            <li>Em Coloque o gelo e 1 rodela de laranja em um copo. Em seguida, junte o vermute, o Campari e o gin e misture as bebidas com uma colher. Termine colocando a outra rodela de laranja e sirva.</li>
+                            </justify>
+                        <ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="box">
+            <img src="images/g-10.jpg" alt="">
+            <div class="content">
+                <h3>Vinho quente</h3>
+                <p>O dia está mais frio? Que tal servir um saboroso vinho quente para suas visitas?</p>
+                <a  onclick="showModalJ()" class="btn">Veja Mais</a>
+            </div>
+        </div>
+        <div class="modal" id="modalJ">
+            <div class="modal-content">
+                <span class="botao" onclick="hideModalJ()">&times;</span>
+                <h1 class="heading"><span>Vinho quente</span></h1>
+                <div class="receita">
+                    <div class="ingredientes">
+                        <ul>
+                            <h2>Ingredientes</h2>
+                            <li>1 garrafa de vinho tinto seco de sua escolha</li>
+                            <li>2 peras e 2 maçãs vermelhas cortadas em cubos</li>
+                            <li>1 casca de laranja</li>
+                            <li>250g de açúcar</li>
+                            <li>200mL de água morna</li> 
+                            <li>Suco de um limão taiti</li>
+                            <li>Cravo, canela e cardamomo a gosto.</li>
+                        </ul>
+                    </div>
+                    <div class="preparo">
+                        <ol>
+                            <h2>Modo de Preparo</h2>
+                            <justify>
+                            <li>Misture, em uma panela, o açúcar cristal e a água morna, diluindo bem o conteúdo.</li>
+                            <li>Leve para fogo brando com os temperos, a casca de laranja e o suco de limão, deixando cozinhar até ficar bem caramelizado.</li>
+                            <li>Depois, adicione o vinho e mais 300mL de água morna, misturando bem e deixando ferver por mais 5 minutos.</li>
+                            <li>Assim que tirar do fogo, adicione as frutas cortadas e sirva ainda quente.</li>
+                            </justify>
+                        <ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="heading"><span>Sobremesas</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/g-11.jpg" alt="">
+            <div class="content">
+                <h3>Tiramisù</h3>
+                <p>O Tiramisù é uma sobremesa de origem italiana que se popularizou bastante em nosso país.</p>
+                <a  onclick="showModalK()" class="btn">Veja Mais</a>
+            </div>
+        </div>
+        <div class="modal" id="modalK">
+            <div class="modal-content">
+                <span class="botao" onclick="hideModalK()">&times;</span>
+                <h1 class="heading"><span>Tiramisù</span></h1>
+                <div class="receita">
+                    <div class="ingredientes">
+                        <ul>
+                            <h2>Ingredientes</h2>
+                            <li>3 gemaslha</li>
+                            <li>4 colheres (sopa) de amaretto</li>
+                            <li>¾ xícara (chá) de açúcar de confeiteiro (150 g)</li>
+                            <li>50g de chocolate meio amargo ralado</li>
+                            <li>2 e ¼ xícaras (chá) de mascarpone (500g)</li> 
+                            <li>¾ xícara (chá) de creme de leite (200ml)</li>
+                            <li>24 biscoitos champanhe</li>
+                            <li>2 xícaras (chá) de café espresso forte (ou 500ml)</li>
+                            <li>Chocolate em pó (para polvilhar)</li>
+                        </ul>
+                    </div>
+                    <div class="preparo">
+                        <ol>   
+                            <h2>Modo de Preparo</h2>
+                            <justify>
+                            <li>Bata as gemas com o amaretto. Adicione o açúcar, aos poucos, e bata até dissolver bem. </li>
+                            <li>Junte o chocolate e o mascarpone.</li>
+                            <li>Faça um chantilly com o creme de leite e incorpore ao chocolate.</li>
+                            <li>Mergulhe o lado sem açúcar do biscoito no café.</li>
+                            <li>Disponha metade das bolachas no fundo de uma forma quadrada ou retangular e cubra com metade do creme de mascarpone. </li>
+                            <li>Coloque as bolachas e o creme restante em camadas, e espalhe uniformemente. Cubra a forma e deixe na geladeira a noite toda.</li>
+                            <li>Antes de servir, polvilhe bastante chocolate em pó.</li>
+                            </justify>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-12.jpg" alt="">
+            <div class="content">
+                <h3>Petit Gâteau Tradicional</h3>
+                <p>O petit gateau, que significa "pequeno bolo" em francês, é uma sobremesa clássica que agrada a todos.</p>
+                <a  onclick="showModalL()" class="btn">Veja Mais</a>
+            </div>
+        </div>
+        <div class="modal" id="modalL">
+            <div class="modal-content">
+                <span class="botao" onclick="hideModalL()">&times;</span>
+                <h1 class="heading"><span>Petit Gâteau Tradicional</span></h1>
+                <div class="receita">
+                    <div class="ingredientes">
+                        <ul>
+                            <h2>Ingredientes</h2>
+                            <li>5 ovos inteiros</li>
+                            <li>5 gemas</li>
+                            <li>170g de açúcar</li>
+                            <li>100g de farinha de trigo</li>
+                            <li>250g de chocolate meio amargo)</li> 
+                            <li>250g de manteiga sem sal</li>
+                        </ul>
+                    </div>
+                    <div class="preparo">
+                        <ol>   
+                            <h2>Modo de Preparo</h2>
+                            <justify>           
+                            <li>Derreta o chocolate com a manteiga em banho-maria.</li>
+                            <li>Em uma batedeira, bata as gemas, os ovos inteiros e o açúcar.</li>
+                            <li>Adicione o chocolate derretido à mistura das gemas e, em seguida, junte a farinha peneirada, misturando até obter uma massa homogênea.</li>
+                            <li>Unte com manteiga sem sal quatro pequenas formas redondas antiaderentes de 6 cm de diâmetro e reserve em uma assadeira em lugar fresco.</li>
+                            <li>Coloque a massa nas formas e asse em forno pré-aquecido a 180 graus por 4 minutos (retire assim que estiver com a superfície assada).</li>
+                            </justify>
+                        </ol>
+                    </div>
+                    <div class="preparo1">
+                        <ol>
+                            <justify>
+                            <li>Desenforme e polvilhe açúcar de confeiteiro. Sirva com uma bola de sorvete de baunilha.</li>
+                            <li>Se a massa estiver na geladeira, tirar 40 minutos antes para que esteja na temperatura adequada para ir ao forno.</li>
+                            <li>Unte as forminhas somente com manteiga. Nunca deixe a massa já na forminha na geladeira, pois isso dificulta na hora de desenformar.</li>
+                            <li>O tempo de validade da massa crua, sob refrigeração, é de cinco dias.</li>
+                            </justify>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-13.jpg" alt="">
+            <div class="content">
+                <h3>Berry Cheesecake</h3>
+                <p>O cheesecake (do inglês, bolo de queijo) é um alimento doce muito popular nos Estados Unidos.</p>
+                <a  onclick="showModalM()" class="btn">Veja Mais</a>
+            </div>
+        </div>
+        <div class="modal" id="modalM">
+            <div class="modal-content">
+                <span class="botao" onclick="hideModalM()">&times;</span>
+                <h1 class="heading"><span>Berry Cheesecake</span></h1>
+                <div class="receita">
+                    <div class="ingredientes">
+                        <ul>
+                            <h2>Ingredientes</h2>
+                            <li>250 g de biscoito tipo maisena</li>
+                            <li>125 g de manteiga ou margarina derretida</li>
+                            <li>750 g de cream cheese</li>
+                            <li>2/3 xícara (150g) de açúcar</li>
+                            <li>2 ovos</li> 
+                            <li>Suco de 1 limão</li>
+                            <li>400 g de mixed berries congeladas (amora, mirtilo, framboesa...)</li>
+                        </ul>
+                    </div>
+                    <div class="preparo">
+                        <ol>   
+                            <h2>Modo de Preparo</h2>
+                            <justify>                 
+                            <li>Pré-aqueça o forno a 180º. Utilize uma forma de 22 cm de diâmetro.</li>
+                            <li>Coloque os biscoitos em um processador e bata até que se assemelhe à farinha de rosca.</li>
+                            <li> Adicione manteiga e bata até misturar. Coloque a mistura na forma, fundo e laterais, e deixe descansar por 15 minutos.</li>
+                            <li>Enquanto isso, usando um mixer ou processador, bata o cream cheese e ½ xícara de açúcar suavemente.</li>
+                            <li>Adicione um ovo de cada vez, bata bem a cada adição. Coloque metade do suco do limão.</li>
+                            </justify>
+                        </ol>
+                    </div>
+                    <div class="preparo1">
+                        <ol>
+                            <justify>
+                            <li>Coloque metade das frozen berries (frutas vermelhas congeladas) e misture levemente com uma colher.</li>
+                            <li>Derrame a mistura na forma preparada com o biscoito. Cozinhe por 45 minutos, até não grudar no palito.</li>
+                            <li>Deixe na geladeira por 6 horas ou da noite para o dia.</li>
+                            <li>Enquanto isso coloque o restante das berries congeladas, açúcar e suco de limão em uma panela, e mexa até derreter.</li>
+                            <li>Deixe ferver por 5 minutos. Coe e coloque no cheesecake. Agora é só servir. </li>
+                            </justify>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-14.jpg" alt="">
+            <div class="content">
+                <h3>Crème Brulée</h3>
+                <p>Crème brûlée (em português: creme queimado) é uma receita francesa. Servida fria com uma cobertura crocante de açúcar caramelizado.</p>
+                <a  onclick="showModalN()" class="btn">Veja Mais</a>
+            </div>
+        </div>
+        <div class="modal" id="modalN">
+            <div class="modal-content">
+                <span class="botao" onclick="hideModalN()">&times;</span>
+                <h1 class="heading"><span>Crème Brulée</span></h1>
+                <div class="receita">
+                    <div class="ingredientes">
+                        <ul>
+                            <h2>Ingredientes</h2>
+                            <li>250 ml de leite integral</li>
+                            <li>250 ml de creme de leite frescoa</li>
+                            <li>1/3 xícara (chá) de açúcar refinado</li>
+                            <li>100g de gemasúcar</li>
+                            <li>1 fava de baunilha</li> 
+                            <li>1/3 xícara (chá) de açúcar cristal</li>
+                            <li>1 maçarico para caramelizar</li>
+                        </ul>
+                    </div>
+                    <div class="preparo">
+                        <ol>   
+                            <h2>Modo de Preparo</h2>
+                            <justify>                     
+                            <li>Ferva 220 ml de leite (reserve 30 ml) com a fava de baunilha, o creme de leite e metade do açúcar.</li>
+                            <li>Em uma vasilha à parte, bata as gemas com o restante do leite e açúcar.</li>
+                            <li>Quando o leite ferver, adicione uma concha à mistura de gemas, misture bem e coloque a mistura na panela junto com o leite.</li>
+                            <li>Esse procedimento é feito para que as gemas não talhem, se adicionadas diretamente ao leite fervente na panela.</li>
+                            <li>Cozinhe até engrossar, mexendo sempre.</li>
+                            </justify>
+                        </ol>
+                    </div>
+                    <div class="preparo1">
+                        <ol>
+                            <justify>
+                            <li>Despeje em forminhas e asse por aproximadamente 20 minutos em banho-maria a 150 graus, sem cobrir.</li>
+                            <li>Tire do forno e leve para gelar. Polvilhe o açúcar cristal nas forminhas e caramelize com um maçarico.</li>
+                            </justify>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-15.jpg" alt="">
+            <div class="content">
+                <h3>Crepe Suzette</h3>
+                <p>O crepe suzette tem mais de um século de história e é conhecido no mundo todo.</p>
+                <a  onclick="showModalO()" class="btn">Veja Mais</a>
+            </div>
+        </div>
+        <div class="modal" id="modalO">
+            <div class="modal-content">
+                <span class="botao" onclick="hideModalO()">&times;</span>
+                <h1 class="heading"><span>Crepe Suzette</span></h1>
+                <div class="receita">
+                    <div class="ingredientes">
+                        <ul>
+                            <h2>Ingredientes</h2>
+                            <li>Massa: 1 ¼ xícara (chá) de leite ;2 ovos</li>
+                            <li>1 colher (sopa) de margarina derretida ;1 colher (sopa) de licor de laranja; 1 ½ xícara (chá) de farinha de trigo peneirada ;1 colher (café) de sal ;Óleo para untar</li>
+                            <li>Molho: ½ xícara (chá) de margarina; ½ xícara (chá) de açúcar ;2 colheres (sopa) de licor de laranja</li> 
+                            <li>½ xícara (chá) de suco de laranja ;¼ xícara (chá) de conhaque</li>
+                            <li>1 colher (sopa) de suco de limão</li>
+                        </ul>
+                    </div>
+                    <div class="preparo">
+                        <ol>       
+                            <h2>Modo de Preparo</h2>
+                            <justify>                     
+                            <li>Massa: Coloque no liquidificador o leite, os ovos, a margarina, o licor de laranja, a farinha de trigo e o sal.</li>
+                            <li>Bata até misturar os ingredientes. Despeje em uma tigela, cubra com uma tampa e deixe descansar por 40 minutos.</li>
+                            <li>Passado este tempo, pincele um pouco de óleo em uma frigideira e aqueça-a.</li>
+                            <li>Coloque uma concha da massa do crepe na frigideira de forma que fique uma camada fina.</li>
+                            <li>Frite até a borda ficar levemente dourada. Vire-a e doure a outra parte.</li>
+                            </justify>
+                        </ol>
+                    </div>
+                    <div class="preparo1">
+                        <ol>
+                            <justify>
+                            <li>Repita a operação até que a massa termine. Em seguida, dobre cada crepe em quatro partes, formando um triângulo.</li>
+                            <li>Reserve. Molho: Prepare o molho em uma frigideira ou em uma panela grande.</li>
+                            <li>Leve ao fogo brando a margarina, o açúcar, o suco de laranja e de limão e mexa até derreter.</li>
+                            <li>Junte o licor de laranja e os crepes. Cozinhe por 3 minutos e vire de lado. </li>
+                            <li>Despeje o conhaque, acenda a mistura com um fósforo e deixe flambar.</li>
+                            </justify>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</section>
+
+<section class="footer">
+
+    <h1 class="credit"> Desenvolvimento: <span> Luiz F. </span>e <span>Gabriel C.</span>  </h1>
+
+</section>
+
+<a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+<div class="loader-container">
+    <img src="images/loader.gif" alt="">
+</div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

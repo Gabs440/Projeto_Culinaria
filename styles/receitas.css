@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(68.15deg, #ffffff 16.62%, #ffffff  85.61%);;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(58, 55, 55);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding: 74px;
+    height: 100px;
+}
+ul li a:hover{
+    color: rgb(243, 148, 7);
+    transition: 0.3s all;
+}
+header .logo {
+    position: relative;
+    max-width: 175px;
+}
+header ul {
+    position: relative;
+    display: flex;
+}
+header ul li {
+    list-style: none;
+}
+header ul li a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-left: 45px;
+    text-decoration: none;
+}
+.content {
+    position: relative;
+    top: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox {
+    position: relative;
+    max-width: 600px;
+}
+.content .textBox h3 {
+    color: rgb(224, 135, 33);
+    font-size: 3em;
+    line-height: 1.1em;
+    font-weight: 500;
+}
+.content .textBox h3 span {
+    color:rgb(223, 104, 68);
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.content .textBox p {
+    color:rgb(0, 0, 0);
+    margin-top: 40px;
+    font-size: 20px;
+}
+.content .textBox a {
+    width: 100px;
+    height: 45px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: rgb(240, 107, 45);
+    color: #ffffff;
+    border-radius: 40px;
+    font-weight: 750;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content .textBox a:hover {
+    background-color: rgb(163, 52, 0);
+    transition: 1s all;
+}
+  
+.content .imgBox {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+.content .imgBox img {
+    max-width: 300px;
+}
+.thumb {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.thumb li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.thumb li:hover {
+    transform: translateY(-15px);
+}
+.thumb li img {
+    max-width: 70px;
+}
+.circulo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(240, 107, 45);
+    clip-path: circle(600px at right 800px);
+}
+
+  
